@@ -1,6 +1,5 @@
 const SUPABASE_URL = "https://ljaaunahoavbahkjarxv.supabase.co";
-const SUPABASE_ANON_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqYWF1bmFob2F2YmFoa2phcnh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg2NDkwMDUsImV4cCI6MjA2NDIyNTAwNX0.3PtoIAAGBBvZqvl5_Bh1S7Gh0gr3UobM-7RSawyP2ks";
+const SUPABASE_ANON_KEY ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqYWF1bmFob2F2YmFoa2phcnh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg2NDkwMDUsImV4cCI6MjA2NDIyNTAwNX0.3PtoIAAGBBvZqvl5_Bh1S7Gh0gr3UobM-7RSawyP2ks";
 
 const { createClient } = supabase;
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
